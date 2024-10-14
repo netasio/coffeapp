@@ -1,7 +1,14 @@
-import React from 'react'
+import React from 'react';
+import UncontrolledExample from './UncontrolledExample'; // Importa el carrusel
 
 export const HomePage = () => {
   return (
-    <h1></h1>
-  )
-}
+    <div>
+      <h1>Welcome to the Home Page</h1>
+      <UncontrolledExample /> {/* Llama al componente del carrusel */}
+    </div>
+  );
+};
+
+
+
