@@ -4,11 +4,6 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
-   /**    fontFamily: {
-        sans: ["Poppins", "sans-serif"],
-        cursive: ["Pacifico", "Sriracha", "cursive"],
-        cursive2: ["Sriracha", "cursive"],
-      }, */
       colors: {
         primary: "#8c6e54",
         secondary: "#3e3e3e",
@@ -23,9 +18,6 @@ export default {
           DEFAULT: "1rem",
           sm: "3rem",
         },
-      },
-      animation: {
-        "spin-fast": "spin 5s linear infinite",
       },
     },
   },

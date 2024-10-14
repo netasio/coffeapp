@@ -1,10 +1,8 @@
 import React from "react";
-import Logo from "../../assets/website/logoultradefinitivo2.0.png";
-import { FaCoffee } from "react-icons/fa";
+import Logo from "../../assets/website/neologonav.png";
 import { FaHome } from "react-icons/fa";
 import { FaServicestack } from "react-icons/fa";
 import { FaInfoCircle } from "react-icons/fa";
-import { FaUser } from "react-icons/fa";
 
 const Menu = [
   {
@@ -36,7 +34,7 @@ const Navbar = () => {
             <div data-aos="fade-down" data-aos-once="true">
               <a
                 href="#"
-                className="font-bold text-2xl sm:text-3xl flex justify-center items-center gap-2 tracking-wider font-cursive"
+                className="text-2xl sm:text-3xl flex justify-center items-center gap-2 tracking-wider font-cursive"
               >
                 <img src={Logo} alt="Logo" className="w-14" />
                 Cafe Shop
@@ -64,10 +62,7 @@ const Navbar = () => {
         </li>
       ))}
     </ul>
-              <button className=" bg-primary/70 hover:scale-105 duration-200 text-white px-4 py-2 rounded-full flex items-center gap-3">
-                Cuenta
-                <FaUser className="text-xl text-white drop-shadow-sm cursor-pointer" />
-              </button>
+  
             </div>
           </div>
         </div>
