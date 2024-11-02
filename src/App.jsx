@@ -7,8 +7,8 @@ import Testimonials from "./components/Testimonials/Testimonials.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 const App = () => {
+ 
   React.useEffect(() => {
     AOS.init({
       offset: 100,
@@ -28,6 +28,7 @@ const App = () => {
       <Testimonials />
       <Footer />
     </div>
+    
   );
 };
 

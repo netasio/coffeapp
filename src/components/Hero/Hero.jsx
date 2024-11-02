@@ -1,7 +1,8 @@
 import React from "react";
 import HeroPng from "../../assets/coffee2.png";
 
-const Hero = () => {
+const Hero = () => 
+{
   return (
     <>
       <div className="min-h-[550px] sm:min-h-[600px] bg-brandDark flex justify-center items-center text-white">
@@ -25,7 +26,7 @@ const Hero = () => {
                 Mar del Plata
               </h1>
               <div data-aos="fade-up" data-aos-delay="400">
-                <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
+                <button  className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
                   Pedi el Tuyo
                 </button>
               </div>
